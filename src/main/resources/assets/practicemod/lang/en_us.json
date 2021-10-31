@@ -2,8 +2,21 @@
 
   "item.practicemod.amethyst": "Amethyst",
   "item.practicemod.excalibur": "Excalibur",
+  "item.practicemod.firestone": "Firestone",
 
   "block.practicemod.amethyst_ore": "Amethyst Ore",
+  "block.practicemod.amethyst_block": "Block of Amethyst",
+  "block.practicemod.firestone_block": "Firestone Block",
+
+  "item.practicemod.amethyst_sword": "Amethyst Sword",
+  "item.practicemod.amethyst_shovel": "Amethyst Shovel",
+  "item.practicemod.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.practicemod.amethyst_axe": "Amethyst Axe",
+  "item.practicemod.amethyst_hoe": "Amethyst Hoe",
+
+
+  "tooltip.practicemod.firestone_shift": "Might set you on fire, but if used in the correct block might protect you from it",
+  "tooltip.practicemod.firestone": "Hold \u00A7eSHIFT\u00A7r to see more",
 
   "itemGroup.practiceModTab": "Practice Mod"
 
