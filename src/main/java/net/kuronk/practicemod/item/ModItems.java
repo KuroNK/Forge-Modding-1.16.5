@@ -41,6 +41,12 @@ public class ModItems {
             () -> new HoeItem(ModItemTier.AMETHYST, 0, 0f,
                     new Item.Properties().group(ModItemGroup.PRACTICE_GROUP)));
 
+    public static final RegistryObject<Item> SWORD_OF_THE_FORGOTTEN_KING = ITEMS.register("sword_of_the_forgotten_king",
+            ()-> new SwordItem(ModItemTier.LEGENDARY, 0, 0,
+                    new Item.Properties().group(ModItemGroup.PRACTICE_GROUP)));
+
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

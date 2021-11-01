@@ -9,7 +9,10 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
 
     AMETHYST(4, 200, 8f, 8f, 18,
-            () -> Ingredient.fromItems(ModItems.AMETHYST.get()));
+            () -> Ingredient.fromItems(ModItems.AMETHYST.get())),
+
+    LEGENDARY(4,-1,10,20,22,
+            null);
 
     private final int harvestLevel;
     private final int maxUses;
